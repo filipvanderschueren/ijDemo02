@@ -13,4 +13,14 @@ public class Lijst {
     {
         lijst.add(p);
     }
+
+    public String drukAf()
+    {
+        String alles = "";
+
+        for(Persoon p : lijst)
+            alles = alles + p.toString();
+        return alles;
+
+    }
 }
